@@ -1,7 +1,7 @@
-app_name = "the_ex_gym"
-app_title = "The Ex Gym"
-app_publisher = "admin@carbonitesolutions.com"
-app_description = "gym sass app"
+app_name = "radix_template"
+app_title = "radix_template"
+app_publisher = "Carbonite Solutions"
+app_description = "radix_template app"
 app_email = "admin@carbonitesolutions.com"
 app_license = "mit"
 
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "the_ex_gym",
-# 		"logo": "/assets/the_ex_gym/logo.png",
-# 		"title": "The Ex Gym",
-# 		"route": "/the_ex_gym",
-# 		"has_permission": "the_ex_gym.api.permission.has_app_permission"
+# 		"name": "radix_template",
+# 		"logo": "/assets/radix_template/logo.png",
+# 		"title": "radix_template",
+# 		"route": "/radix_template",
+# 		"has_permission": "radix_template.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/the_ex_gym/css/the_ex_gym.css"
-# app_include_js = "/assets/the_ex_gym/js/the_ex_gym.js"
+# app_include_css = "/assets/radix_template/css/radix_template.css"
+# app_include_js = "/assets/radix_template/js/radix_template.js"
 
-# include js, css files in header of web template
-# web_include_css = "/assets/the_ex_gym/css/the_ex_gym.css"
-# web_include_js = "/assets/the_ex_gym/js/the_ex_gym.js"
+# include js, css files in header of web radix_template
+# web_include_css = "/assets/radix_template/css/radix_template.css"
+# web_include_js = "/assets/radix_template/js/radix_template.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "the_ex_gym/public/scss/website"
+# website_theme_scss = "radix_template/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "the_ex_gym/public/icons.svg"
+# app_include_icons = "radix_template/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -75,43 +75,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "the_ex_gym.utils.jinja_methods",
-# 	"filters": "the_ex_gym.utils.jinja_filters"
+# 	"methods": "radix_template.utils.jinja_methods",
+# 	"filters": "radix_template.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "the_ex_gym.install.before_install"
-# after_install = "the_ex_gym.install.after_install"
+# before_install = "radix_template.install.before_install"
+# after_install = "radix_template.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "the_ex_gym.uninstall.before_uninstall"
-# after_uninstall = "the_ex_gym.uninstall.after_uninstall"
+# before_uninstall = "radix_template.uninstall.before_uninstall"
+# after_uninstall = "radix_template.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "the_ex_gym.utils.before_app_install"
-# after_app_install = "the_ex_gym.utils.after_app_install"
+# before_app_install = "radix_template.utils.before_app_install"
+# after_app_install = "radix_template.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "the_ex_gym.utils.before_app_uninstall"
-# after_app_uninstall = "the_ex_gym.utils.after_app_uninstall"
+# before_app_uninstall = "radix_template.utils.before_app_uninstall"
+# after_app_uninstall = "radix_template.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "the_ex_gym.notifications.get_notification_config"
+# notification_config = "radix_template.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -150,39 +150,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"the_ex_gym.tasks.all"
+# 		"radix_template.tasks.all"
 # 	],
 # 	"daily": [
-# 		"the_ex_gym.tasks.daily"
+# 		"radix_template.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"the_ex_gym.tasks.hourly"
+# 		"radix_template.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"the_ex_gym.tasks.weekly"
+# 		"radix_template.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"the_ex_gym.tasks.monthly"
+# 		"radix_template.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "the_ex_gym.install.before_tests"
+# before_tests = "radix_template.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "the_ex_gym.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "radix_template.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "the_ex_gym.task.get_dashboard_data"
+# 	"Task": "radix_template.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -196,13 +196,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["the_ex_gym.utils.before_request"]
-# after_request = ["the_ex_gym.utils.after_request"]
+# before_request = ["radix_template.utils.before_request"]
+# after_request = ["radix_template.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["the_ex_gym.utils.before_job"]
-# after_job = ["the_ex_gym.utils.after_job"]
+# before_job = ["radix_template.utils.before_job"]
+# after_job = ["radix_template.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -232,7 +232,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"the_ex_gym.auth.validate"
+# 	"radix_template.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
